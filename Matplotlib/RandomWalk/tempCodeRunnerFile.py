@@ -7,7 +7,7 @@ while True:
     rw = RandomWalk(50000)
     rw.fill_walk()
     """definition of view range"""
-    plt.figure(dpi=200, figsize=(10, 6))
+    plt.figure(dpi=220, figsize=(10,6))
     point_numbers = list(range(rw.num_points))
     plt.scatter(
         rw.x_values,
